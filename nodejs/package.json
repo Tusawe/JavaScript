@@ -1,0 +1,21 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Ejemplo de creacion de package json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "star": "node src/servicioWeb1.js"
+  },
+  "keywords": [
+    "aplication",
+    "web",
+    "rest",
+    "...."
+  ],
+  "author": "pepelu",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
