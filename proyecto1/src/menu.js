@@ -1,5 +1,7 @@
-var menu = require('simple-menu');
-var readline = require('readline-sync');
+const menu = require('simple-menu');
+const readline = require('readline-sync');
+const client = require('./src/db/conexion');
+const findDocuments = require('./db/findAll')
  
 menu.reset();
  
@@ -8,6 +10,10 @@ menu.addBreak('-', 60);
  
 menu.addOption('Listar todos los datos', function() {
   console.log('Listar todos los datos');
+  findDocuments(db, (err, docs) => {
+    if(err) console.log(err)
+    else console.log(docs)
+  })
 });
 
 menu.addOption('Listar todos los paises', function() {

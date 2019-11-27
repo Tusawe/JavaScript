@@ -5,7 +5,7 @@ const assert = require('assert');
 const url = 'mongodb://172.17.0.2:27017';
 
 // Database Name
-const dbName = 'myproject';
+// const dbName = 'dbGeografia';
 
 // Create a new MongoClient
 const client = new MongoClient(url, {useUnifiedTopology: true});
