@@ -1,0 +1,21 @@
+{
+  "name": "proyecto2",
+  "version": "1.0.0",
+  "description": "Proyecto node http mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "mongo",
+    "server"
+  ],
+  "author": "Jose Luis",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.4.0"
+  }
+}
