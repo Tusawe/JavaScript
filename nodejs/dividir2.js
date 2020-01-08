@@ -19,7 +19,7 @@ dividir(20, 3, (err, data) => {
     }
 })
 
-dividir(20/0, (err, data) => {
+dividir(20, 0, (err, data) => {
     if(err) {
         console.log(err)
     } else {

@@ -11,18 +11,18 @@ const personas = [
     { nombre : 'gervasio', edad : 43 }]
 
 // BUCLE CORRIENTE
-// for (let i = 0; i < personas.length; i++ ) {
-//     console.log(personas[i].nombre)
-// }
+for (let i = 0; i < personas.length; i++ ) {
+    console.log(personas[i].nombre)
+}
 
 // BUCLE FOREACH
-// personas.forEach(persona =>
-//     console.log(persona.nombre))
+personas.forEach(persona =>
+    console.log(persona.nombre))
 
 // BUCLE FOR...IN
-// for (let persona in personas) {
-//     console.log(personas[persona].nombre)
-// }
+for (let persona in personas) {
+    console.log(personas[persona].nombre)
+}
 
 // BUCLE FOR...OF
 for (const persona of personas){
